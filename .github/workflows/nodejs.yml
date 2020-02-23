@@ -17,9 +17,11 @@ jobs:
       env:
         TEST_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        GITHUB_ACTOR: ${{ github.actor }}
       run: |
         echo ${#TEST_GITHUB_TOKEN}
         echo ${#AWS_S3_BUCKET}
+        echo ${#GITHUB_ACTOR}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
