@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+#mono {
+    width: 400px;
+}
+#code {
+    font-size: 16px;
+    font-family: "Neutra", Arial, Helvetica, sans-serif;
+    width: 200px;
+    border: 1px solid rgba(130,30,50);
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+}
