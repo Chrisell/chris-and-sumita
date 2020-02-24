@@ -22,11 +22,10 @@ class Nav extends React.Component {
     return (
         <div className="et-hero-tabs-container">
                 <span className="logo"></span>
-                <NavLink className="et-hero-tab" to='home'>home</NavLink>
-                <NavLink className="et-hero-tab" to='about'>about</NavLink>
+                <NavLink className="et-hero-tab" to='about'>about us</NavLink>
                 <NavLink className="et-hero-tab" to='events'>events</NavLink>
                 <NavLink className="et-hero-tab" to='registry'>registry</NavLink>
-                <NavLink className="et-hero-tab" to='activities'>activities</NavLink>
+                <NavLink className="et-hero-tab" to='activities'>philly</NavLink>
         </div>
     )
   }
