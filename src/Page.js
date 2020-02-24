@@ -12,10 +12,7 @@ class Page extends React.Component {
 
     render() {
         return (
-            <div className="page">
-                <h2>{ this.state.title }</h2>
-            </div>
-            
+            <h2>{ this.state.title }</h2>
         )
     }
 

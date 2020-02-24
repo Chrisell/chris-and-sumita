@@ -1,0 +1,22 @@
+.registry a span {
+    display: block;
+    float: left;
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgba(133,0,0,0.8);
+    margin: 20px;
+    position: relative;
+    transition-duration: 0.3s;
+}
+.registry a span:hover {
+    border: 2px solid rgba(240, 146, 0, 1);
+}
+
+.brand-logo {
+    max-width: 80%;
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

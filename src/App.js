@@ -8,6 +8,7 @@ import Event from './Event.js'
 import Page from './Page.js'
 import EventsPage from './EventsPage.js'
 import Nav from './Nav.js'
+import Registry from './Registry.js'
 import './App.css';
 
 function Home() {
@@ -24,7 +25,8 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <Nav></Nav>
+        <Nav />
+        <div className="page">
           <Route path="/home">
             <Page title="home" />
           </Route>
@@ -35,11 +37,13 @@ class App extends React.Component {
             <EventsPage />
           </Route>
           <Route path="/registry">
-            <Page title="registry" />
+            <Registry />
           </Route>
           <Route path="/activities">
             <Page title="activities" />
           </Route>
+        </div>
+        <div class="footer"></div>
       </Router>
 
       
