@@ -9,6 +9,7 @@ import Page from './Page.js'
 import EventsPage from './EventsPage.js'
 import Nav from './Nav.js'
 import Registry from './Registry.js'
+import Activities from './Activities.js'
 import './App.css';
 
 function Home() {
@@ -40,7 +41,7 @@ class App extends React.Component {
             <Registry />
           </Route>
           <Route path="/activities">
-            <Page title="activities" />
+            <Activities title="activities" />
           </Route>
         </div>
         <div class="footer"></div>

@@ -1,0 +1,8 @@
+.marker {
+    border-radius: 24px;
+    height: 15px;
+    width: 15px;
+    border: rgba(133,0,0,0.8) 5px solid;
+    background-color: rgba(240, 146, 0, 1);
+    cursor: pointer;
+}
