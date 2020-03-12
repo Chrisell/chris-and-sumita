@@ -15,7 +15,7 @@ class Page extends React.Component {
         return (
             <div>
                 <h2>{ this.state.title }</h2>
-                <Carousel showArrows={true}>
+                {/* <Carousel showArrows={true}>
                     <div>
                         <img src="img/us/1.jpg" />
                         <p className="legend">Legend 1</p>
@@ -40,7 +40,7 @@ class Page extends React.Component {
                         <img src="img/us/6.jpg" />
                         <p className="legend">Legend 6</p>
                     </div>
-                </Carousel>
+                </Carousel> */}
             </div>
                 
         )

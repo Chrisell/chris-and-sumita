@@ -11,7 +11,7 @@ class Activities extends React.Component {
             lat: 39.95,
             lng: -75.16
         },
-        zoom: 14
+        zoom: 13
     };
     createMapOptions(map) {
         return {
@@ -21,6 +21,14 @@ class Activities extends React.Component {
             styles: [
                 {
                     featureType: 'poi',
+                    stylers: [{ visibility: 'off' }]
+                },
+                {
+                    featureType: 'transit',
+                    stylers: [{ visibility: 'off' }]
+                },
+                {
+                    elementType: 'labels',
                     stylers: [{ visibility: 'off' }]
                 },
                 { 
