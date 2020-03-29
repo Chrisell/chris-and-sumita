@@ -88,10 +88,10 @@ class Activities extends React.Component {
         return (
             <div className="registry">
                 <h1>Around Philly</h1>
-                <div style={{ float:'left', height: '50vh', maxWidth: '50%' }}>
+                <div style={{ float:'left', height: '50vh', maxWidth: '30%' }}>
                     <ul>{list}</ul>
                 </div>
-                <div style={{ float:'right', height: '50vh', maxWidth: '50%' }}>
+                <div style={{ float:'right', height: '50vh', maxWidth: '70%', width: '100%' }}>
                     <GoogleMapReact
                         bootstrapURLKeys={{ key: 'AIzaSyBR0HqVWE_Pb3iDXH9NuyGRD6VkMLl4x0g' }}
                         defaultCenter={this.props.center}
