@@ -32,7 +32,7 @@ class App extends React.Component {
             <Page title="home" />
           </Route>
           <Route path="/about">
-            <Page title="about" />
+            <Page title="About Us" />
           </Route>
           <Route path="/events">
             <EventsPage />
@@ -44,7 +44,7 @@ class App extends React.Component {
             <Activities title="activities" />
           </Route>
         </div>
-        <div class="footer"></div>
+        <div className="footer"></div>
       </Router>
 
       

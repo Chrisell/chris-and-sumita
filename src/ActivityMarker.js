@@ -1,4 +1,5 @@
 import React, {Component, Fragment} from 'react';
+import ReactTooltip from 'react-tooltip'
 import './ActivityMarker.css'
 
 const InfoWindow = (props) => {
@@ -50,10 +51,12 @@ class ActivityMarker extends React.Component {
     }
 
     render() {
+        var tooltip = this.props.name + "<br/>" + this.props.address;
         return (
             <Fragment>
-                <div className="marker" />
+                <div className="marker" data-tip={tooltip}/>
                 {this.props.show && <InfoWindow place={this.props.place} />}
+                <ReactTooltip place="right" effect="solid" multiline="true"/>
             </Fragment>
         )
     }
