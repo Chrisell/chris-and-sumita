@@ -1,6 +1,8 @@
-.registry a span {
-    display: block;
-    float: left;
+.registry .centered {
+    text-align: center;
+}
+.registry a {
+    display: inline-block;
     width: 250px;
     height: 250px;
     border: 2px solid rgba(133,0,0,0.8);
