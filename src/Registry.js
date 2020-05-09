@@ -7,7 +7,7 @@ class Registry extends React.Component {
             <div className="registry">
                 <h1>Registry</h1>
                 <div className="centered">
-                    <a target="blank" href="https://www.surlatable.com/on/demandware.store/Sites-SLT-Site/default/GiftRegistryCustomer-Show?ID=62c919ab6e2373e24698870cde">
+                    <a target="blank" href="https://www.surlatable.com/on/demandware.store/Sites-SLT-Site/default/GiftRegistryCustomer-Show?ID=859fb8c9f4939d3f8b91c0e60d">
                         <span>
                             <img className="brand-logo" alt="Sur La Table" src="img/surlatable.jpg" />
                         </span>
