@@ -1,6 +1,6 @@
 import React from 'react';
 import Event from './Event.js'
-import Form from './Form.js'
+//import Form from './Form.js'
 import './Page.css'
 
 class EventPage extends React.Component {

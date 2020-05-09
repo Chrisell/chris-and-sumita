@@ -3,9 +3,6 @@ import GoogleMapReact from 'google-map-react';
 import ActivityMarker from './ActivityMarker.js'
 
 class Activities extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     static defaultProps = {
         center: {
             lat: 39.95,

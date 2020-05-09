@@ -15,9 +15,6 @@ import './App.css';
 
 const history = createBrowserHistory()
 
-function Home() {
-  return <h2>Home</h2>;
-}
 class App extends React.Component {
   constructor() {
       super();
