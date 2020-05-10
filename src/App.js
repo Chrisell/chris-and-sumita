@@ -11,6 +11,7 @@ import EventsPage from './EventsPage.js'
 import Nav from './Nav.js'
 import Registry from './Registry.js'
 import Activities from './Activities.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 const history = createBrowserHistory()

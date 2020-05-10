@@ -23,6 +23,12 @@ body {
   font-family: "Neutra", Arial, Helvetica, sans-serif;
 }
 
+.page {
+    margin-top:70px;
+    margin-bottom: 220px;
+    padding: 20px 30px;
+}
+
 .footer {
   background-image: url("img/border-bottom.png");
   background-repeat: repeat-x;
