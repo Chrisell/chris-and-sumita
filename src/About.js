@@ -19,7 +19,7 @@ class About extends React.Component {
         return (
             <Container>
                 <h2>{this.state.title}</h2>
-                <Row>
+                <Row sm={1} md={2}>
                     <Col>
                         <h3>How We Met</h3>
                         <p>It was during the Junior Seminar From Film to Fiction that we connected initially in 2010, but Sumita liking a Facebook article on Chris' wall Correlation &amp; Causality is what made us get to know each other again years later. After 6 plus months of only communicating on Facebook Messenger as old classmates, and a few friend dates where we bonded over our love of 30 Rock, we tried to go on our first real date: the Manayunk Food Truck Festival.</p>
@@ -34,7 +34,7 @@ class About extends React.Component {
                         <p>The third, and thankfully final, attempt was much more spontaneous. After having a difficult couple of weeks, we finally felt up to going out for a night out. We went to Emmy Squared, a new location of a restaurant that had recently opened up in Philadelphia. After a nice dinner and drinks, we decided to walk down the block to one of our favorite bars: Southwark. There we shared another round of cocktails and our conversation started to focus on our future. We had spoken of marriage plenty of times, but this time Chris decided that all the planning and attempts to make the proposal special weren't the point. Being married was the special part so the moment we got home from our night out Chris grabbed the ring box, sat down next to Sumita and told her everything he felt and she said yes!</p>
                     </Col>
                 </Row>
-                <Row>
+                <Row sm={1} md={2}>
                     <Col>
                         <h3>Our Current Life</h3>
                         <p>We currently live in our home in South Philadelphia with our two cats, PK &amp; Tux. Sumita loves to cook &amp; bake, as well as try to keep her urban jungle alive. Chris likes to spend his time researching and practicing computer programming, attempting to learn guitar, and doing the occasional home-improvement project that Sumita has given the green light on.</p>
