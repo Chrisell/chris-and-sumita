@@ -20,7 +20,7 @@ class Nav extends React.Component {
           <NavLink className="et-hero-tab" to='about'>us</NavLink>
           <NavLink className="et-hero-tab" to='events'>events</NavLink>
           <NavLink className="et-hero-tab" to='registry'>registry</NavLink>
-          <NavLink className="et-hero-tab" to='activities'>philly</NavLink>
+          {/* <NavLink className="et-hero-tab" to='activities'>philly</NavLink> */}
         </div>
     )
   }
