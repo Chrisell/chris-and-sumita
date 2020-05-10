@@ -62,11 +62,11 @@ class EventPage extends React.Component {
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" />
                                 <Form.Text className="text-muted">
-                                    We'll only use your email to contact you with updates.
+                                    We'll use your email to send you with updates.
                                 </Form.Text>
                             </Form.Group>
                             <Form.Group controlId="formBasicGuestCount">
-                                <Form.Label>Guest Count</Form.Label>
+                                <Form.Label>Guest Count (estimate)</Form.Label>
                                 <Form.Control type="number" />
                             </Form.Group>
                             <Form.Group controlId="formBasicAttending">

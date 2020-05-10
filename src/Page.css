@@ -3,12 +3,6 @@ h2,h3,h4 {
 }
 
 .home {
-    margin:70px auto 220px;
-    max-width: 70%;
-    padding: 0px 30px;
-    height: 100%;
-    background-image: url('/img/us/1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    max-width: 600px;
+    margin: auto;
 }
