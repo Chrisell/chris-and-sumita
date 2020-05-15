@@ -22,13 +22,13 @@ class EventPage extends React.Component {
         event.preventDefault();
         var name = document.getElementById("formBasicName").value;
         var email = document.getElementById("formBasicEmail").value;
-        var count = document.getElementById("formBasicGuestCount").value;
+        // var count = document.getElementById("formBasicGuestCount").value;
         var attending = document.getElementById("formBasicAttending").checked;
         console.log(attending)
         const postData = {
             name: name,
             email: email,
-            count: count,
+            count: "n/a",
             attending: attending
         }
         const requestOptions = {
@@ -65,10 +65,10 @@ class EventPage extends React.Component {
                                     We'll use your email to send you with updates.
                                 </Form.Text>
                             </Form.Group>
-                            <Form.Group controlId="formBasicGuestCount">
+                            {/* <Form.Group controlId="formBasicGuestCount">
                                 <Form.Label>Guest Count (estimate)</Form.Label>
                                 <Form.Control type="number" />
-                            </Form.Group>
+                            </Form.Group> */}
                             <Form.Group controlId="formBasicAttending">
                                 <Form.Check type="checkbox" label="Expecting to attend"></Form.Check>
                             </Form.Group>
