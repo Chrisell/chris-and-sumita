@@ -49,7 +49,7 @@ class EventPage extends React.Component {
                 <Row xs={1} sm={1} md={2} >
                     <Col>
                         <h3>COVID19 Updates</h3>
-                        <p> Never would we have thought to factor a global health pandemic into our wedding planning...yet here we are.  As it stands currently, we are still planning to have our wedding ceremonies the weekend of 10/09-10/10 but understand we may have to change our initial plans that included 200+ guests. As a guest to one of the most intimate moments of our lives where we plan to share the hopes & dreams of our future as well as connect our cultures, we consider you a part of our family and would never want to risk your health & safety. We always planned to have digital viewing options (Zoom & Facebook Live) to connect those celebrating from afar, so those options will be available to everyone. Should we have to postpone the larger celebration altogether, we will let you know as soon as we know our capabilities.  We will continue to closely monitor and adhere to CDC / local government guidelines, so please check back regularly for updates as we are eager to include you!</p>
+                        <p>Never would we have thought to factor a global health pandemic into our wedding planning...yet here we are. We have decided to hold an intimate vow exchange on our original wedding date of 10/10/2020, but plan to have a larger celebration in the Fall of 2021 when it is safer for everyone to gather. We appreciate your understanding during these unprecedented times &amp; look forward to your support when we are able to celebrate together!</p>
                     </Col>
                     <Col>
                         <h3>RSVP Signup</h3>
