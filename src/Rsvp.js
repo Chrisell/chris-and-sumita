@@ -1,8 +1,6 @@
 import React from 'react';
 import {
-    Container,
-    Row,
-    Col
+    Container
 } from 'react-bootstrap';
 import './About.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
