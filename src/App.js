@@ -8,6 +8,7 @@ import { createBrowserHistory } from "history";
 import About from './About.js'
 import Page from './Page.js'
 import EventsPage from './EventsPage.js'
+import Rsvp from './Rsvp.js'
 import Nav from './Nav.js'
 import Registry from './Registry.js'
 import Activities from './Activities.js'
@@ -34,8 +35,8 @@ class App extends React.Component {
             <Route path="/about">
               <About title="About Us" />
             </Route>
-            <Route path="/rsvp">
-              <EventsPage />
+            <Route title="RSVP" path="/rsvp">
+              <Rsvp />
             </Route>
             <Route path="/events">
               <EventsPage />
