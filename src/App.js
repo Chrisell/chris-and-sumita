@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -33,6 +33,9 @@ class App extends React.Component {
           <Switch>
             <Route path="/about">
               <About title="About Us" />
+            </Route>
+            <Route path="/rsvp">
+              <EventsPage />
             </Route>
             <Route path="/events">
               <EventsPage />
