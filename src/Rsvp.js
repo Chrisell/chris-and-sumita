@@ -21,7 +21,7 @@ class Rsvp extends React.Component {
                         <li>4:30 - 5:15 - Ceremony Starts</li>
                         <li>5:15 - 6:15 - Cocktail Hour</li>
                         <li>6:15 - 6:30 - Speeches</li>
-                        <li>6:30 - 7:30 - Speeches</li>
+                        <li>6:30 - 7:30 - Dinner</li>
                         <li>7:30 - Dessert</li>
                     </ul>
                 </Row>
