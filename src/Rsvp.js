@@ -18,10 +18,10 @@ class Rsvp extends React.Component {
                     <p>Thank you for being a part of our vow exchange ceremony. We are sharing this event with our closest family &amp; friends, so we appreciate your support on what will be a memorable evening during an even more memorable year.</p>
                     <ul>
                         <li>4:00 - Guests Arrive</li>
-                        <li>4:30 - 5:15 - Ceremony Starts</li>
-                        <li>5:15 - 6:15 - Cocktail Hour</li>
-                        <li>6:15 - 6:30 - Speeches</li>
-                        <li>6:30 - 7:30 - Dinner</li>
+                        <li>4:30 - Ceremony</li>
+                        <li>5:15 - Cocktail Hour</li>
+                        <li>6:15 - Speeches</li>
+                        <li>6:30 - Dinner</li>
                         <li>7:30 - Dessert</li>
                     </ul>
                 </Row>
