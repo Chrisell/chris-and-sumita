@@ -16,6 +16,7 @@ class Rsvp extends React.Component {
             <Container>
                 <Row xs={1} sm={1} md={1} >
                     <p>Thank you for being a part of our vow exchange ceremony. We are sharing this event with our closest family &amp; friends, so we appreciate your support on what will be a memorable evening during an even more memorable year.</p>
+                    <p>The event will be taking place outside at Sumita's parents home. Please attend in cocktail attire and shoes appropriate for grass.</p>
                     <ul>
                         <li>4:00 - Guests Arrive</li>
                         <li>4:30 - Ceremony</li>
