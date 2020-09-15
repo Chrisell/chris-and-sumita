@@ -51,35 +51,6 @@ class EventPage extends React.Component {
                         <h3>COVID19 Updates</h3>
                         <p>Never would we have thought to factor a global health pandemic into our wedding planning...yet here we are. We have decided to hold an intimate vow exchange on our original wedding date of 10/10/2020, but plan to have a larger celebration in the Fall of 2021 when it is safer for everyone to gather. We appreciate your understanding during these unprecedented times &amp; look forward to your support when we are able to celebrate together!</p>
                     </Col>
-                    <Col>
-                        <h3>RSVP Signup</h3>
-                        {!this.state.done && (<Form onSubmit={this.signupSubmit}>
-                            <Form.Group controlId="formBasicName">
-                                <Form.Label>Name</Form.Label>
-                                <Form.Control type="name" placeholder="Your Name"></Form.Control>
-                            </Form.Group>
-                            <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" placeholder="Enter email" />
-                                <Form.Text className="text-muted">
-                                    We'll use your email to send you with updates.
-                                </Form.Text>
-                            </Form.Group>
-                            {/* <Form.Group controlId="formBasicGuestCount">
-                                <Form.Label>Guest Count (estimate)</Form.Label>
-                                <Form.Control type="number" />
-                            </Form.Group> */}
-                            <Form.Group controlId="formBasicAttending">
-                                <Form.Check type="checkbox" label="Expecting to attend"></Form.Check>
-                            </Form.Group>
-                            <Button variant="primary" type="submit">
-                                Submit
-                            </Button>
-                        </Form>)}
-                        {this.state.done && (
-                            <p>Thank you for RSVPing! We'll be sending out updates as soon as we know details about the changes in the event.</p>
-                        )}
-                    </Col>
                 </Row>
             </Container>                
                             
