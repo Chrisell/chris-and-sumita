@@ -44,7 +44,7 @@ class Rsvp extends React.Component {
                                 <Form.Label>Email address</Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" />
                                 <Form.Text className="text-muted">
-                                    We'll use your email to send you with updates.
+                                    We'll use your email to send you updates.
                                 </Form.Text>
                             </Form.Group>
                             <Form.Group controlId="formBasicGuestCount">
