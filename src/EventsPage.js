@@ -1,6 +1,6 @@
 import React from 'react';
 import Event from './Event.js'
-import {Form, Button, Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col} from 'react-bootstrap'
 //import Form from './Form.js'
 import './Page.css'
 
