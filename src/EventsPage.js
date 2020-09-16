@@ -46,7 +46,7 @@ class EventPage extends React.Component {
     render() {
         return (
             <Container>
-                <Row xs={1} sm={1} md={2} >
+                <Row xs={1} sm={1} md={1} >
                     <Col>
                         <h3>COVID19 Updates</h3>
                         <p>Never would we have thought to factor a global health pandemic into our wedding planning...yet here we are. We have decided to hold an intimate vow exchange on our original wedding date of 10/10/2020, but plan to have a larger celebration in the Fall of 2021 when it is safer for everyone to gather. We appreciate your understanding during these unprecedented times &amp; look forward to your support when we are able to celebrate together!</p>

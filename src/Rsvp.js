@@ -7,8 +7,40 @@ class Rsvp extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            title: this.props.title
+            done: false,
+            title: this.props.title,
+            details: {}
         }
+        this.updateDetails = this.updateDetails.bind(this);
+        this.signupSubmit = this.signupSubmit.bind(this);
+    }
+    updateDetails(value) {
+        this.setState({ details: value })
+    }
+    signupSubmit(event) {
+        event.preventDefault();
+        var name = document.getElementById("formBasicName").value;
+        var email = document.getElementById("formBasicEmail").value;
+        // var count = document.getElementById("formBasicGuestCount").value;
+        var attending = document.getElementById("formBasicAttending").checked;
+        console.log(attending)
+        const postData = {
+            name: name,
+            email: email,
+            count: "n/a",
+            attending: attending
+        }
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(postData)
+        }
+        fetch('https://4qy0oqgung.execute-api.us-east-1.amazonaws.com/prod/wedding-signup', requestOptions)
+            .then(response => response.json())
+            .then(data => 
+                console.log(data),
+                this.setState({done: true})
+            );
     }
 
     render() {
