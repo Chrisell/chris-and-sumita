@@ -9,25 +9,26 @@ class Rsvp extends React.Component {
         this.state = {
             done: false,
             title: this.props.title,
-            details: {}
+            attending: "true"
         }
-        this.updateDetails = this.updateDetails.bind(this);
+        this.onAttendingChanged = this.onAttendingChanged.bind(this);
         this.signupSubmit = this.signupSubmit.bind(this);
     }
-    updateDetails(value) {
-        this.setState({ details: value })
+    onAttendingChanged(e) {
+        this.setState({
+            attending: e.currentTarget.value
+        })
     }
     signupSubmit(event) {
         event.preventDefault();
         var name = document.getElementById("formBasicName").value;
         var email = document.getElementById("formBasicEmail").value;
-        // var count = document.getElementById("formBasicGuestCount").value;
-        var attending = document.getElementById("formBasicAttending").checked;
-        console.log(attending)
+        var count = document.getElementById("formBasicGuestCount").value;
+        var attending = this.state.attending;
         const postData = {
             name: name,
             email: email,
-            count: "n/a",
+            count: count,
             attending: attending
         }
         const requestOptions = {
@@ -84,7 +85,10 @@ class Rsvp extends React.Component {
                                 <Form.Control type="number" />
                             </Form.Group>
                             <Form.Group controlId="formBasicAttending">
-                                <Form.Check type="checkbox" label="Expecting to attend"></Form.Check>
+                                <Form.Check type="radio" checked={this.state.attending === "true"} value="true" label="Will attend after being tested for COVID-19" onChange={this.onAttendingChanged}></Form.Check>
+                            </Form.Group>
+                            <Form.Group controlId="formBasicNotAttending">
+                                <Form.Check type="radio" checked={this.state.attending === "false"} value="false" label="Will celebrate from afar" onChange={this.onAttendingChanged}></Form.Check>
                             </Form.Group>
                             <Button variant="primary" type="submit">
                                 Submit
