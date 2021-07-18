@@ -17,7 +17,7 @@ class Nav extends React.Component {
   render() {
     return (
       <Navbar className="et-hero-tabs-container" expand="lg">
-       <Navbar.Brand to="/">
+       <Navbar.Brand href="/">
             <img src="img/mono.png" alt="S &amp; C"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
