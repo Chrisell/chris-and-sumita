@@ -1,4 +1,4 @@
-a {
+/* a {
     text-decoration: none;
 }
 
@@ -35,18 +35,7 @@ a {
     background: #fff;
     z-index: 10;
 }
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    padding: 10px;
-    background-image: url('img/mono.png');
-    background-size: 30%;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-}
+
 .et-hero-tab {
     display: flex;
     justify-content: center;
@@ -77,4 +66,51 @@ a {
 }
 .et-hero-tab {
     font-size: 1rem;
+} */
+
+.et-hero-tabs-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    width: 100%;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    max-height:70px;
+}
+.et-hero-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    padding: 0 2em;
+    width:100%;
+} 
+.me-auto {
+    width: 100%;
+    align-items: center;
+}
+.et-hero-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: rgba(133,0,0,0.8);
+    letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 1rem;
+    width: 25%;
+}
+.et-hero-tab.active {
+    border-bottom: 4px solid rgba(133,0,0,1);
+}
+.et-hero-tab:hover {
+    color: rgba(240, 146, 0, 1);
+    transition: all 0.5s ease;
 }

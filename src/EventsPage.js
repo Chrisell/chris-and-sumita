@@ -46,10 +46,21 @@ class EventPage extends React.Component {
     render() {
         return (
             <Container>
-                <Row xs={1} sm={1} md={1} >
+                <h3>Events &amp; Details</h3>
+                <Row xs={1} sm={1} md={2} >
                     <Col>
-                        <h3>COVID19 Updates</h3>
-                        <p>Never would we have thought to factor a global health pandemic into our wedding planning...yet here we are. We have decided to hold an intimate vow exchange on our original wedding date of 10/10/2020, but plan to have a larger celebration in the Fall of 2021 when it is safer for everyone to gather. We appreciate your understanding during these unprecedented times &amp; look forward to your support when we are able to celebrate together!</p>
+                        <h4>10/01 | Vow Renewal @ PAFA </h4>
+                        <p>This event will be an intimate evening we are choosing to share with our closest family &amp; friends who have helped us make it through this tough year. Due to venue limitations, this evening will be adults-only.</p>
+                        <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So women should wear long or cocktail dresses, pantsuits, or saris, while men should wear suit and tie or sherwanis. </p>
+                        <h4>10/02 | Hindu Wedding Ceremony @ ICC</h4>
+                        <p>This event will be a traditional Indian wedding, including a Baraat (or a celebratory wedding procession for the groom involving live music and dancing) followed by a Hindu Ceremony.</p>
+                        <p>The evening will continue into a cocktail hour and dinner with an assortment of Indian Bengali music.</p>
+                        <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So women should wear saris, lehengas, cocktail dresses, or pantsuits, while men should wear sherwanis, kurta pyjama, or suit and tie. </p>
+                    </Col>
+                    <Col>
+                        <h4>Hotel</h4>
+                        <p>Details include hotel wedding blocks (Voorhees and Philly options) and possible transportation offerings (lyft code or charter group travel from Voorhees hotel to PAFA if budget allows)</p>
+
                     </Col>
                 </Row>
             </Container>                

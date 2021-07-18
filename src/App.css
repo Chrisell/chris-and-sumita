@@ -29,7 +29,7 @@ body {
     padding: 20px 30px;
 }
 
-.footer {
+/* .footer {
   background-image: url("img/border-bottom.png");
   background-repeat: repeat-x;
   background-position: center bottom;
@@ -37,7 +37,7 @@ body {
   height: 250px;
   position: fixed;
   bottom: 0;
-}
+} */
 
 #root {
   display: grid;
