@@ -46,7 +46,7 @@ class EventPage extends React.Component {
     render() {
         return (
             <Container>
-                <h3>Events &amp; Details</h3>
+                <h1>Events &amp; Details</h1>
                 <Row xs={1} sm={1} md={2} >
                     <Col>
                         <h4>10/01 | Vow Renewal @ PAFA </h4>
@@ -58,8 +58,16 @@ class EventPage extends React.Component {
                         <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So women should wear saris, lehengas, cocktail dresses, or pantsuits, while men should wear sherwanis, kurta pyjama, or suit and tie. </p>
                     </Col>
                     <Col>
-                        <h4>Hotel</h4>
-                        <p>Details include hotel wedding blocks (Voorhees and Philly options) and possible transportation offerings (lyft code or charter group travel from Voorhees hotel to PAFA if budget allows)</p>
+                        <h4>Hotels</h4>
+                        <p>We have room blocks in both locations of the weekend's events</p>
+                        <p><b>Le Meridian</b></p>
+                            <p>The Le Meridian is around the corner from our Friday Event venue, the Pennsylvania Academy of Fine Arts (PAFA)
+                            Rooms are available in single King or 2 Double room options<br/>
+                            <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1625239785180&key=GRP&app=resvlink" target="blank">Ell Party Room Block</a></p>
+                        <p><b>Spinghill Suites by Marriot</b></p>
+                        <p>The Springhill Suites is a 10-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.
+                            Rooms are available in single King or Double Queen room options</p>
+                        <p><a href="https://bit.ly/3i1cFlwRouthEllWedding" target="blank">Click here for more details.</a></p>
 
                     </Col>
                 </Row>

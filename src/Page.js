@@ -14,8 +14,7 @@ class Page extends React.Component {
     render() {
         return (
             <div className="home">
-                <h1>Sumita &amp; Chris</h1>
-                <Carousel showArrows={true} showThumbs={false}>
+                <Carousel stopOnHover={false} interval={5000} transitionTime={1000} autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
                     <div>
                         <img alt="Sumita and Chris" src="img/us/1.jpg" />
                     </div>
