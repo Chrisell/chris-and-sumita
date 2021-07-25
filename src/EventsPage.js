@@ -61,11 +61,11 @@ class EventPage extends React.Component {
                         <h4>Hotels</h4>
                         <p>We have room blocks in both locations of the weekend's events</p>
                         <p><b>Le Meridian</b></p>
-                            <p>The Le Meridian is around the corner from our Friday Event venue, the Pennsylvania Academy of Fine Arts (PAFA)
+                            <p>The Le Meridian is around the corner from our Friday Event venue, the Pennsylvania Academy of Fine Arts (PAFA)<br/>
                             Rooms are available in single King or 2 Double room options<br/>
                             <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1625239785180&key=GRP&app=resvlink" target="blank">Ell Party Room Block</a></p>
                         <p><b>Spinghill Suites by Marriot</b></p>
-                        <p>The Springhill Suites is a 10-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.
+                        <p>The Springhill Suites is a 10-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
                             Rooms are available in single King or Double Queen room options</p>
                         <p><a href="https://bit.ly/3i1cFlwRouthEllWedding" target="blank">Click here for more details.</a></p>
 
