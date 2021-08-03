@@ -54,7 +54,7 @@ class EventPage extends React.Component {
                         <ul>
                             <li>Cocktail Hour: 6:00pm</li>
                             <li>Wedding Toast: 6:45pm</li>
-                            <li>Dinner &amp; Dancing: 7:30</li>
+                            <li>Dinner &amp; Dancing: 7:30pm</li>
                         </ul>
                         <p>This event will be an intimate evening we are choosing to share with our closest family &amp; friends who have helped us make it through this tough year. Due to venue limitations, this evening will be adults-only.</p>
                         <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So women should wear long or cocktail dresses, pantsuits, or saris, while men should wear suit and tie or sherwanis. </p>
