@@ -77,12 +77,12 @@ class EventPage extends React.Component {
                         <h4>Available Hotels for the Events</h4>
                         <p>We have room blocks in both locations of the weekend's events</p>
                         <p><b>Le Meridian</b><br />1421 Arch Street<br />Philadelphia, Pennsylvania 19102<br />215.422.8200<br/>$145/night</p>
-                            <p>The Le Meridian is around the corner from our Friday Event venue, the Pennsylvania Academy of Fine Arts (PAFA)<br/>
-                            Rooms are available in single King or 2 Double room options<br/></p>
+                            <p>The Le Meridian is around the corner from our Friday Event venue, the Pennsylvania Academy of Fine Arts (PAFA).<br/>
+                            Rooms are available in single King or 2 Double room options.<br/></p>
                         <p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1625239785180&key=GRP&app=resvlink" target="blank">Ell Party Room Block at Le Meridian</a></p>
                         <p><b>Spinghill Suites</b><br />1031 Voorhees Drive<br />Voorhees Township, New Jersey<br />856.782.2555<br/> $159/night</p>
                         <p>The Springhill Suites is a 10-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
-                            Rooms are available in single King or Double Queen room options</p>
+                            Rooms are available in single King or 2 Queen room options.</p>
                         <p><a href="https://bit.ly/3i1cFlwRouthEllWedding" target="blank">Ell Party Room Block at Springhill Suites</a></p>
 
                     </Col>
