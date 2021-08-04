@@ -50,7 +50,7 @@ class Rsvp extends React.Component {
                 <h1>RSVP</h1>
                 <Row xs={1} sm={1} md={1} >
                     <Col>
-                        <p>We cannot wait to finELLy celebrate with you! As this event is highly anticipated, we wanted to ensure everyone feels safe by requiring all guests over the age of 12 to provide proof of vaccination for the events - which will be confirmed by the event staff. We appreciate you taking the time to support us and create a safer space to celebrate our marriage, as well as a safer community.</p>
+                        <p>We cannot wait to finELLy celebrate with you! As this event is highly anticipated, we wanted to ensure everyone feels safe by requiring all guests over the age of 12 to provide proof of vaccination for the events - which will be confirmed by the event staff. We appreciate you taking the time to create a safer space to celebrate our marriage and a safer community.</p>
                         <p>You can RSVP for our events by visiting <a href=" https://www.theknot.com/us/sumita-routh-and-chris-ell-oct-2021/rsvp" target="_blank">this link</a>. The password is <b>finELLy</b> - which is case sensitive.</p>
                     </Col>
                 </Row>
