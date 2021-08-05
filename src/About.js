@@ -22,7 +22,7 @@ class About extends React.Component {
                 <Row xs={1} sm={1} md={2} >
                     <Col>
                         <h3>How We Met</h3>
-                        <p>It was during the Junior Seminar From Fiction to Film that we initially connected in 2010, but Sumita liking a Facebook article on Chris' wall about Correlation &amp; Causality is what brought us together again years later. After 6 months of only communicating on Facebook Messenger as old classmates, and a few friend dates where we bonded over our love of 30 Rock, we tried to go on our first real date: the Manayunk Food Truck Festival.</p>
+                        <p>It was during the Junior Seminar <i>From Fiction to Film</i> that we initially connected in 2010, but Sumita liking a Facebook article on Chris's wall about Correlation &amp; Causality is what brought us together again years later. After 6 months of only communicating on Facebook Messenger as old classmates, and a few friend dates where we bonded over our love of 30 Rock, we tried to go on our first real date: the Manayunk Food Truck Festival.</p>
                         <p>What seemed like a fun idea to try the best food trucks Philly had to offer quickly became annoying as Sumita was hangry (hungry &amp; angry) and the lines were endless. Chris suggested leaving the scene and checking out Chipotle to ease Sumita's hunger pains, which did just the trick!</p>
                     </Col>
                 <Col>
