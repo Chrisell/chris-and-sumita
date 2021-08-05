@@ -56,8 +56,8 @@ class EventPage extends React.Component {
                             <li>Wedding Toast: 6:45pm</li>
                             <li>Dinner &amp; Dancing: 7:30pm</li>
                         </ul>
-                        <p>This event will be an intimate evening we are choosing to share with our closest family &amp; friends who have helped us make it through this tough year. Due to venue and budget constraints, we respectfully request this evening be adults-only. Thank you for your understanding.</p>
-                        <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So women should wear long or cocktail dresses, pantsuits, or saris, while men should wear suit and tie or sherwanis. </p>
+                        <p>This event will be an intimate evening we are choosing to share with our closest family &amp; friends who have helped us make it through this tough year. Due to venue space constraints, we respectfully request this evening be adults-only. Thank you for your understanding.</p>
+                        <p>The dress code for this event will be Formal or Formal Indian Traditional. So attire would include long or cocktail dresses, pantsuits, saris, suit and tie or sherwanis. </p>
                         <h4>10/02 | Hindu Wedding Ceremony @ ICC</h4>
                         <p><b>Indian Cultural Center of South Jersey</b><br />820 NJ-73<br />Marlton, NJ 08053</p>
                         <ul>
@@ -68,7 +68,7 @@ class EventPage extends React.Component {
                         </ul>
                         <p>This event will be a traditional Indian wedding, including a Baraat (or a celebratory wedding procession for the groom involving live music and dancing) followed by a Hindu Ceremony.</p>
                         <p>The evening will continue into an extended cocktail hour and dinner with dancing and a fun dessert surprise.</p>
-                        <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So women should wear saris, lehengas, cocktail dresses, or pantsuits, while men should wear sherwanis, kurta pyjama, or suit and tie. </p>
+                        <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So attire traditionally for women include wear saris, lehengas, cocktail dresses, or pantsuits, while attire traditionaly for men include sherwanis, kurta pyjama, or suit and tie. </p>
                         <p>As we know some of our family may not be familiar with where to shop for traditional Indian clothing but want to participate in the tradition, we’ve put together some options below.</p>
                         <p>If you’re local to the tri-state area and want to try on clothing in person, we’d recommend going to the Indian clothing stores in Edison or Iselin, New Jersey. There are a variety of prices and options for you to choose from for same day purchase.</p>
                         <p>There are many websites that have ready to ship options (such as <a href="https://g3fashion.com/en-us" target="_blank" rel="noopener noreferrer">G3 Fashion</a> , <a href="https://www.kalkifashion.com/" target="_blank" rel="noopener noreferrer">Kalki Fashion</a> , or <a href="https://www.azafashions.com/" target="_blank" rel="noopener noreferrer">Aza Fashion</a> ) or Etsy and Amazon give you flexibility too. For those newer to Indian fashion, women should try lenghas or lehenga, salwar kameez (longer tunic with pants) and pre-pleated saris as they are easier to put on than a traditional sari. Men’s options would be kurta sets or sherawanis, which both consist of a longer tunic with a drawstring pants.</p>
