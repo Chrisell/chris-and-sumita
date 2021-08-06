@@ -49,7 +49,7 @@ class EventPage extends React.Component {
                 <h1>Events &amp; Details</h1>
                 <Row xs={1} sm={1} md={2} >
                     <Col>
-                        <h4>10/01 | Vow Renewal @ PAFA</h4>
+                        <h4>10/01 | Party @ PAFA</h4>
                         <p><b>Pennsylvania Academy of the Fine Arts</b><br />118-128 N Broad Street <br />Philadelphia, PA 19102</p>
                         <ul>
                             <li>Cocktail Hour: 6:00pm</li>
@@ -65,13 +65,14 @@ class EventPage extends React.Component {
                             <li>Ceremony: 4:00pm</li>
                             <li>Cocktail Hour: 5:30pm</li>
                             <li>Dinner &amp; Dancing: 7:00pm</li>
+                            <li>Dessert Surprise: 8:00pm</li>
                         </ul>
                         <p>This event will be a traditional Indian wedding, including a Baraat (or a celebratory wedding procession for the groom involving live music and dancing) followed by a Hindu Ceremony.</p>
-                        <p>The evening will continue into an extended cocktail hour and dinner with dancing and a fun dessert surprise.</p>
+                        <p>The evening will continue into an extended cocktail hour and dinner with dancing and a fun dessert surprise for kids of all ages.</p>
                         <p>The dress code for this event will be Semi-Formal or Formal Indian Traditional. So attire traditionally for women include wear saris, lehengas, cocktail dresses, or pantsuits, while attire traditionaly for men include sherwanis, kurta pyjama, or suit and tie. </p>
                         <p>As we know some of our family may not be familiar with where to shop for traditional Indian clothing but want to participate in the tradition, we’ve put together some options below.</p>
                         <p>If you’re local to the tri-state area and want to try on clothing in person, we’d recommend going to the Indian clothing stores in Edison or Iselin, New Jersey. There are a variety of prices and options for you to choose from for same day purchase.</p>
-                        <p>There are many websites that have ready to ship options (such as <a href="https://g3fashion.com/en-us" target="_blank" rel="noopener noreferrer">G3 Fashion</a> , <a href="https://www.kalkifashion.com/" target="_blank" rel="noopener noreferrer">Kalki Fashion</a> , or <a href="https://www.azafashions.com/" target="_blank" rel="noopener noreferrer">Aza Fashion</a> ) or Etsy and Amazon give you flexibility too. For those newer to Indian fashion, women should try lenghas or lehenga, salwar kameez (longer tunic with pants) and pre-pleated saris as they are easier to put on than a traditional sari. Men’s options would be kurta sets or sherawanis, which both consist of a longer tunic with a drawstring pants.</p>
+                        <p>There are many websites that have ready to ship options (such as <a href="https://g3fashion.com/en-us" target="_blank" rel="noopener noreferrer">G3 Fashion</a>, <a href="https://www.kalkifashion.com/" target="_blank" rel="noopener noreferrer">Kalki Fashion</a>, or <a href="https://www.azafashions.com/" target="_blank" rel="noopener noreferrer">Aza Fashion</a>) or Etsy and Amazon give you flexibility too. For those newer to Indian fashion, women should try lenghas or lehenga, salwar kameez (longer tunic with pants) and pre-pleated saris as they are easier to put on than a traditional sari. Men’s options would be kurta sets or sherawanis, which both consist of a longer tunic with a drawstring pants.</p>
                     </Col>
                     <Col>
                         <h4>Available Hotels for the Events</h4>
