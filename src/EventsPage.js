@@ -63,7 +63,7 @@ class EventPage extends React.Component {
                         <ul>
                             <li>Baraat: 3:30pm</li>
                             <li>Ceremony: 4:00pm</li>
-                            <li>Cocktail Hour: 5pm</li>
+                            <li>Cocktail Hour: 5:30pm</li>
                             <li>Dinner &amp; Dancing: 7:00pm</li>
                             <li>Dessert Surprise: 8:00pm</li>
                         </ul>
