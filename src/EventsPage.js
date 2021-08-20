@@ -83,7 +83,7 @@ class EventPage extends React.Component {
                         <p><b>Crowne Plaza</b><br />2349 NJ-70<br />, Cherry Hill, New Jersey<br />856.782.2555<br/> $119/night</p>
                         <p>The Crowne Plaza is a 20-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
                             Rooms are available in single King or 2 Queen room options.</p>
-                        <p>(856) 665-6666 - Routh Ell Wedding Room Block</a></p>
+                        <p>(856) 665-6666 - Routh Ell Wedding Room Block</p>
                         <p><b>Spinghill Suites</b><br />1031 Voorhees Drive<br />Voorhees Township, New Jersey<br />856.782.2555<br/> $159/night</p>
                         <p>The Springhill Suites is a 10-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
                             Rooms are available in single King or 2 Queen room options.</p>
