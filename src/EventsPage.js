@@ -58,7 +58,7 @@ class EventPage extends React.Component {
                         </ul>
                         <p>This event will be an intimate evening we are choosing to share with our closest family &amp; friends who have helped us make it through this tough year. Due to venue space constraints, we respectfully request this evening be adults-only. Thank you for your understanding.</p>
                         <p>The dress code for this event will be Formal or Formal Indian Traditional. So attire would include long or cocktail dresses, pantsuits, saris, suit and tie or sherwanis. </p>
-                        <p> We will be providing a shuttle from the Crown Plaza in Cherry Hill, NJ for guests that will be departing the hotel for the venue at 5:30pm then returning from the venue to the hotel at 11:30pm.</p>
+                        <p> We will be providing a shuttle from the Crowne Plaza in Cherry Hill, NJ for guests that will be departing the hotel for the venue at 5:30pm then returning from the venue to the hotel at 11:30pm.</p>
                         <h4>10/02 | Hindu Wedding Ceremony @ ICC</h4>
                         <p><b>Indian Cultural Center of South Jersey</b><br />820 NJ-73<br />Marlton, NJ 08053</p>
                         <ul>
@@ -84,7 +84,7 @@ class EventPage extends React.Component {
                         <p><b>Crowne Plaza</b><br />2349 NJ-70<br />Cherry Hill, New Jersey<br />856.782.2555<br/> $119/night</p>
                         <p>The Crowne Plaza is a 20-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
                             Rooms are available in single King or 2 Queen room options.</p>
-                        <p>(856) 665-6666 - Routh Ell Wedding Room Block</p>
+                        <p>Please call the hotel to book directly (856) 665-6666 and reference the 'Routh Ell Wedding Room Block'</p>
                         <p><b>Spinghill Suites</b><br />1031 Voorhees Drive<br />Voorhees Township, New Jersey<br />856.782.2555<br/> $159/night</p>
                         <p>The Springhill Suites is a 10-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
                             Rooms are available in single King or 2 Queen room options.</p>
