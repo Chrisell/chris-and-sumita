@@ -59,7 +59,7 @@ class EventPage extends React.Component {
                         <p>This event will be an intimate evening we are choosing to share with our closest family &amp; friends who have helped us make it through this tough year. Due to venue space constraints, we respectfully request this evening be adults-only. Thank you for your understanding.</p>
                         <p>The dress code for this event will be Formal or Formal Indian Traditional. So attire would include long or cocktail dresses, pantsuits, saris, suit and tie or sherwanis. </p>
                         <p> Parking is limited on the street, but there are a variety of paid garages or lots. We recommend using the Parkway Parking Garage (150 N Broad St, Philadelphia, PA) which is a 1 minute walk to our venue and located on the same block. Cost of parking is $15 for the evening.</p>
-                        <p> We will be providing a shuttle from the Crowne Plaza in Cherry Hill, NJ for guests that will be departing the hotel for the venue at 5:30pm then returning from the venue to the hotel at 11:30pm.</p>
+                        <p> We will be providing a shuttle bus from the Crowne Plaza in Cherry Hill, NJ for guests that will be departing the hotel for the venue at 5:30pm then returning from the venue to the hotel at 11:30pm.</p>
                         <h4>10/02 | Hindu Wedding Ceremony @ ICC</h4>
                         <p><b>Indian Cultural Center of South Jersey</b><br />820 NJ-73<br />Marlton, NJ 08053</p>
                         <ul>
