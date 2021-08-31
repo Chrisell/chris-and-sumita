@@ -77,18 +77,18 @@ class EventPage extends React.Component {
                     </Col>
                     <Col>
                         <h4>Available Hotels for the Events</h4>
-                        <p>We have room blocks in both locations of the weekend's events</p>
+                        <p>We have room blocks in both locations of the weekend's events with room block pricing available until September 5th.</p>
                         <p><b>Le Meridian</b><br />1421 Arch Street<br />Philadelphia, Pennsylvania 19102<br />215.422.8200<br/>$145/night</p>
                             <p>The Le Meridian is around the corner from our Friday Event venue, the Pennsylvania Academy of Fine Arts (PAFA).<br/>
-                            Rooms are available in single King or 2 Double room options.<br/></p>
+                            Rooms are available in Single King or 2 Double room options.<br/></p>
                         <p><a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1625239785180&key=GRP&app=resvlink" target="blank">Ell Party Room Block at Le Meridian</a></p>
                         <p><b>Crowne Plaza</b><br />2349 NJ-70<br />Cherry Hill, New Jersey<br />856.782.2555<br/> $119/night</p>
                         <p>The Crowne Plaza is a 20-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
-                            Rooms are available in single King or 2 Queen room options.</p>
+                            Rooms are available in Single King or 2 Queen room options.</p>
                         <p>Please call the hotel booking line directly 856.665.6666 and reference the 'Routh Ell Wedding Room Block' or <a href="https://book.passkey.com/event/50227623/owner/55412/landing"> click here</a>.</p>
                         <p><b>Spinghill Suites</b><br />1031 Voorhees Drive<br />Voorhees Township, New Jersey<br />856.782.2555<br/> $159/night</p>
                         <p>The Springhill Suites is a 10-minute drive to our Saturday Event venue, The Indian Cultural Center of South Jersey and includes free parking.<br/>
-                            Rooms are available in single King or 2 Queen room options.</p>
+                            Rooms are available in Single King or 2 Queen room options.</p>
                         <p><a href="https://bit.ly/3i1cFlwRouthEllWedding" target="blank">Ell Party Room Block at Springhill Suites</a></p>
 
                     </Col>
