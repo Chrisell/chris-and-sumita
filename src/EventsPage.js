@@ -77,7 +77,7 @@ class EventPage extends React.Component {
                     </Col>
                     <Col>
                         <h4>Available Hotels for the Events</h4>
-                        <p>We have room blocks in both locations of the weekend's events with room block pricing available until September 5th.</p>
+                        <p>We have room blocks in both locations of the weekend's events with room block pricing available until <b>September 5th</b>.</p>
                         <p><b>Le Meridian</b><br />1421 Arch Street<br />Philadelphia, Pennsylvania 19102<br />215.422.8200<br/>$145/night</p>
                             <p>The Le Meridian is around the corner from our Friday Event venue, the Pennsylvania Academy of Fine Arts (PAFA).<br/>
                             Rooms are available in Single King or 2 Double room options.<br/></p>
